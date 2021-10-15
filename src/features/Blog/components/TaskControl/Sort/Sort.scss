@@ -1,0 +1,16 @@
+.sort-dropdown__selected {
+  &::after {
+    content: "\2713";
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+    font: {
+    //   family: wingdings;
+      weight: normal;
+      style: normal;
+    }
+  }
+}
+
+.sort-button{
+  width: 100%;
+}

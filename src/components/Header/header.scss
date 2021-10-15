@@ -1,0 +1,16 @@
+a.navbar-link {
+  text-decoration: none !important;
+  color: grey;
+  cursor: pointer;
+  margin: 0 1.5rem;
+  font-weight: 400;
+
+  &.active {
+    color: black;
+    font-weight: 600;
+  }
+
+  &:hover {
+    color: black;
+  }
+}

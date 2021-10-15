@@ -1,0 +1,38 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+  background-image: url("https://img3.goodfon.com/wallpaper/nbig/8/c8/moto-pulse-headphones-white.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   z-index: -1;
+  //   // width: 200%;
+  //   // height: 200%;
+  //   background-image: url("https://img3.goodfon.com/wallpaper/nbig/8/c8/moto-pulse-headphones-white.jpg");
+  //   background-position: center;
+  //   background-size: cover;
+  //   background-attachment: fixed;
+  // }
+
+  &__title{
+      color: white;
+      font-weight: bold;
+  }
+
+  &__blur{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(182, 181, 181, 0.726);
+    backdrop-filter: blur(0.1);
+    height: 100%;
+    width: 100%;
+  }
+}
